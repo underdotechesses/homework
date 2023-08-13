@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne&display=swap");
+
+:root {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+body {
+  margin: 10px;
+  padding: 0px;
+}
+
+header {
+}
+
+h1 {
+  position: absolute;
+  font-family: "Syne", sans-serif;
+  font-size: 2em;
+  margin-top: 26em;
+  color: white;
+}
+
+.div--header {
+  display: flex;
+  position: relative;
+}
+
+.firstImage {
+  height: 100vh;
+}
+
+.link--logo {
+  position: absolute;
+  top: 10px;
+}
+
+.link--logo span {
+  font-size: 1.5em;
+}
+
+section {
+  margin-bottom: 6px;
+  width: 100%;
+  border-radius: 15px;
+  background: #f0f1e6;
+}

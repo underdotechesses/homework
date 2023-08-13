@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+    display: flex;
+}
+
+.timer {
+    height: 2em;
+    width: 20em;
+    margin-top: 10em;
+    margin-left: 50em;
+    border: black solid 2px;
+    display: flex;
+}
+
+.timer span {
+    margin-top: 0.5em;
+}
+
+.timer button {
+    flex-grow: 1;
+}

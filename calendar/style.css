@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+body {
+  margin: 10px;
+  display: flex;
+}
+
+.main {
+  flex-basis: 0;
+  flex-grow: 1535;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.navigation--menu {
+  display: flex;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+.search-icon,
+.layout {
+  flex-grow: 1;
+  margin-top: 10px;
+  display: flex;
+  justify-content: end;
+}
+
+.today {
+  flex-grow: 20;
+  color: #243d6f;
+  font-family: "Roboto", sans-serif;
+}
+
+.main--line svg {
+  position: absolute;
+}
+
+.line svg {
+  background: #9c9898;
+}
+
+.main--part {
+  margin-top: 3.8em;
+  display: flex;
+}
+
+.main--part .main--time {
+  flex-direction: column;
+}
+
+.main--part .time div {
+  height: 4em;
+  width: 38px;
+  position: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.main--part .notice {
+  margin-left: 2em;
+  display: flex;
+  flex-grow: 19;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div--sophia {
+  width: 100%;
+  height: 4em;
+  background: rgba(133, 118, 237, 0.15);
+  text-align: center;
+  border-left: 6px solid rgba(133, 118, 237, 1);
+}
+
+.sophia {
+  margin-top: 1.5em;
+  font-family: "Roboto", sans-serif;
+}
+
+.div--studio {
+  margin-top: 4em;
+  width: 100%;
+  height: 10em;
+  background: rgba(61, 131, 249, 0.15);
+  text-align: center;
+  border-left: 6px solid rgba(61, 131, 249, 1);
+}
+
+.studio {
+  margin-top: 4.5em;
+  font-family: "Roboto", sans-serif;
+}
+
+.div--johny {
+  margin-top: 6em;
+  width: 100%;
+  height: 8em;
+  background: rgba(238, 165, 124, 0.15);
+  text-align: center;
+  border-left: 6px solid rgba(238, 165, 124, 1);
+}
+
+.johny {
+  margin-top: 4em;
+  font-family: "Roboto", sans-serif;
+}
+
+.main--line {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.main--line div {
+  height: 4em;
+}
+
+.aside--section {
+  padding: 2em;
+  height: 850px;
+  width: 27em;
+  background: rgba(42, 46, 65, 0.7);
+}
+
+.aside--div--time {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.aside--div--time .aside--time {
+  margin-top: 0.5em;
+  font-family: "Roboto", sans-serif;
+  width: 320px;
+}
+
+.aside--time-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.aside {
+  flex-basis: 0;
+  flex-grow: 800;
+  font-family: "Roboto", sans-serif;
+}
+
+.button__calendar {
+  background: rgba(28, 26, 26, 0.15);
+  cursor: pointer;
+}
+
+.aside .calendar__div {
+  width: 100%;
+  height: 400px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 1);
+}
+
+.week {
+  cursor: default;
+}
+
+.calendar__div ul {
+  margin: 0;
+  margin-top: 10px;
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: 3em 3em 3em 3em 3em 3em 3em;
+  gap: 4px;
+  text-align: center;
+}
+
+.calendar__div li {
+  height: 53px;
+  text-decoration: none;
+}
+
+.calendar__day-link {
+  color: white;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.calendar__day--not-in-month {
+  opacity: 0.5;
+}
+
+.calendar__day--current {
+  background-color: #1b60d6;
+  border-radius: 50%;
+}
+
+.calendar__shown--day {
+  background-color: rgb(1, 64, 173);
+  border-radius: 50%;
+}
+
+.calendar__day:hover {
+  background: #3c82f9;
+  border-radius: 50%;
+  transition: background-color 0.6s linear 0s;
+}
+
+.name--categories {
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 1);
+}
+
+.first--categories {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first--categories div {
+  width: 200px;
+  height: 80px;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.first--categories div div {
+  padding-top: 2em;
+}
+
+.first--categories .finance {
+  background: #8576ed;
+  font-family: "Roboto", sans-serif;
+  transition: background-color 0.6s linear 0s;
+}
+
+.first--categories .finance:hover {
+  background: #4c3bbb;
+}
+
+.first--categories .finance a {
+  color: white;
+  text-decoration: none;
+}
+
+.first--categories .management {
+  background: #f39946;
+  font-family: "Roboto", sans-serif;
+  transition: background-color 0.6s linear 0s;
+}
+
+.first--categories .management:hover {
+  background: rgb(167, 96, 30);
+}
+
+.first--categories .management a {
+  color: white;
+  text-decoration: none;
+}
+
+.second--categories div {
+  margin-top: 30px;
+  width: 200px;
+  height: 80px;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.second--categories div div {
+  padding-top: 2em;
+}
+
+.second--categories .design {
+  background: #ff467e;
+  font-family: "Roboto", sans-serif;
+  transition: background-color 0.6s linear 0s;
+}
+
+.second--categories .design:hover {
+  background-color: #b71244;
+}
+
+.second--categories .design a {
+  color: white;
+  text-decoration: none;
+}
