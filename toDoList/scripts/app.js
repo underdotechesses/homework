@@ -1,4 +1,4 @@
-import AddTaskForm from "./AddTaskForm.js";
+import AddTaskForm from "./script/AddTaskForm.js";
 
 const addTaskForm = new AddTaskForm();
 
