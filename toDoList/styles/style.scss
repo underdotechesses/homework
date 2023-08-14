@@ -1,0 +1,100 @@
+body {
+    margin-top: 10em;
+    margin-left: 40em;
+
+    .todos {
+        font-size: 4.5em;
+        margin-left: 4.3em;
+        color: rgba(193, 162, 176, 0.751);
+    }
+
+    .main-div {
+        background-color: white;
+        width: 50em;
+        box-shadow: 10px 10px 20px 2em rgba(213, 213, 213, 0.654);
+
+        .first-div {
+            display: flex;
+            border-bottom: solid 1px rgba(0, 0, 0, 0.228);
+            opacity: 0.5;
+
+            a {
+                width: 2em;
+                height: 1.5em;
+                text-decoration: none;
+                background-color: black;
+                margin-top: 3.5em;
+                margin-left: 2em;
+                margin-right: 2em;
+                border-radius: 50%;
+            }
+
+            input {
+                width: 100%;
+                padding: 2em;
+                font-size: 1.5em;
+                opacity: 0.6;
+                border: none;
+            }
+
+            .visually-hidden {
+                width: 1px;
+                height: 1px;
+                overflow: hidden;
+                position: absolute;
+                margin: 1px;
+                border: none;
+            }
+        }
+    }
+
+    .second-div {
+        display: flex;
+        margin-top: 2em;
+
+        a {
+            width: 1.5em;
+            height: 1.5em;
+            margin-left: 2em;
+            margin-right: 2em;
+            border-radius: 50%;
+            opacity: 0.5;
+        }
+
+        a:hover {
+            background-color: black;
+        }
+
+        .task {
+            opacity: 0.6;
+            font-size: 1.5em;
+            margin-top: -0.1em;
+        }
+    }
+
+    .under-div {
+        display: flex;
+        border-top: solid 1px rgba(0, 0, 0, 0.228);
+        opacity: 0.7;
+        padding: 1em;
+
+        .items {
+            margin-top: 0.3em;
+        }
+
+        a,
+        .items {
+            margin-left: 2em;
+            opacity: 0.6;
+            text-decoration: none;
+            color: black;
+
+            div {
+                width: 5em;
+                height: 1.5em;
+                text-align: center;
+                padding-top: 0.3em;
+            }
+        }
+    }
+}
