@@ -10,22 +10,26 @@
 <body>
     <p class="todos">todos</p>
     <div class="main-div">
-        <div class="first-div">
-            <a href="/"></a>
-            <label placeholder="white something here" type="checkbox">
-                <input type="checkbox" name="complete" class="complete-all">
-                <span></span>
+        <form class="first-div">
+            <label placeholder="write something here" type="checkbox">
+            <input type="checkbox" name="complete" class="complete-all">
+            <span></span>
             </label>
-            <input required placeholder="What needs to be done?" name="task">
+            <input required
+            class="new-todo"
+            placeholder="What needs to be done?"
+            autofocus=""
+            name="task"
+            aria-label="What needs to be done?">
             <button class="visually-hidden submit" type="submit">Add</button>
+        </form>
+        <div class="second-div">
+            <a href="/"></a>
+            <p class="task-p">Task 1</p>
         </div>
         <div class="second-div">
             <a href="/"></a>
-            <p class="task">Task 1</p>
-        </div>
-        <div class="second-div">
-            <a href="/"></a>
-            <p class="task">Task 2</p>
+            <p class="task-p">Task 2</p>
         </div>
         <div class="under-div">
             <div class="items" href="/">3 items left/ 0 completed</div>

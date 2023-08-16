@@ -16,22 +16,30 @@ body {
         .first-div {
             display: flex;
             border-bottom: solid 1px rgba(0, 0, 0, 0.228);
+            padding: 1em;
             opacity: 0.5;
 
-            a {
-                width: 2em;
-                height: 1.5em;
-                text-decoration: none;
-                background-color: black;
-                margin-top: 3.5em;
-                margin-left: 2em;
-                margin-right: 2em;
-                border-radius: 50%;
+            label {
+                input {
+                    opacity: 0;
+                    position: absolute;
+                    width: 1em;
+                }
+
+                .complete-all:checked + span {
+                    color: #898989;
+                }
+
+                .complete-all + span:before {
+                    content: "❯";
+                    font-size: 3em;
+                }
             }
 
             input {
+                margin-top: 0.3em;
+                margin-left: 1em;
                 width: 100%;
-                padding: 2em;
                 font-size: 1.5em;
                 opacity: 0.6;
                 border: none;
@@ -44,6 +52,7 @@ body {
                 position: absolute;
                 margin: 1px;
                 border: none;
+                right: 10em;
             }
         }
     }
@@ -65,7 +74,7 @@ body {
             background-color: black;
         }
 
-        .task {
+        .task-p {
             opacity: 0.6;
             font-size: 1.5em;
             margin-top: -0.1em;
